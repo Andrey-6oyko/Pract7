@@ -1,0 +1,34 @@
+body {
+    background-color: #efdada; 
+}
+
+.custom_nav{
+    background-color: #c8aaaa;
+}
+
+.card_img_text {
+    margin-top: 20px;
+}
+
+.projects{
+    margin-top: 40px;
+}
+
+.send_message{
+    margin-bottom: 15px;
+}
+
+.portfolio img {
+    max-width: 70%;
+    height: auto;
+}
+
+
+.navbar-nav .nav-item:hover {
+    background-color: #e8e2e266; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #100808; /* Колір тексту для заголовків */
+}
+

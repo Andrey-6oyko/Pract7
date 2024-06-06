@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrii Boiko Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .nav-link { color: black; }
+        .hero { text-align: center; padding: 50px 0; }
+        .about, .skills, .portfolio, .contacts { padding: 50px 0; }
+        .skills img { width: 100px; height: auto; }
+        .portfolio img { width: 100%; height: auto; }
+        .contacts i { font-size: 24px; margin: 0 10px; }
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light custom_nav">
+        <div class="container">
+            <a class="navbar-brand" href="#">Andrii Boiko</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item active ">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container text-center">
+            <h1>Andrii Boiko</h1>
+            <p>Student<br>18 years old, Khmelnytskyi</p>
+            <img src="images/image.png" class="img-fluid" alt="Andrii Boiko">
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about bg-light text-center">
+        <div class="container">
+            <h2>About me</h2>
+            <p>Hi, I'm Andrii – student from Khmelnytskyi.<br>
+               I'm interested in design and everything connected with it.<br>
+               I cannot imagine my life without sports and various activities<br>
+               I'm studying at university.<br>
+              </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills text-center">
+        <div class="container">
+            <h2>Skills</h2>
+            <p>I work in such programs as</p>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="images/photoshop.png" alt="Adobe Photoshop">
+                    <p>Adobe Photoshop</p>
+                    <p>★★★★☆</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/62a7906ce42d729d928b1757.png" alt="Adobe Illustrator">
+                    <p>Visual Studio Code</p>
+                    <p>★★★★☆</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/figma.png" alt="Adobe After Effects">
+                    <p>Figma</p>
+                    <p>★★★★☆</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/visual-studio.png" alt="Figma">
+                    <p>Visual Studio Community</p>
+                    <p>★★★☆☆</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio bg-light text-center">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="row text-center projects">
+                <div class="text-center">
+                    <img src="images/htmlcss.png" width="400px" alt="Project 2">
+                    <p class="card_img_text">First using HTML and CSS</p>
+                  </div>
+                <div class="text-center">
+                    <img src="images/js.png" alt="Project 1">
+                    <p class="card_img_text">First using JavaScript</p>
+                </div>
+                <div class="text-center">
+                    <img src="images/page.png" alt="Project 3">
+                    <p class="card_img_text">The First developed site</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section id="contacts" class="contacts text-center ">
+        <div class="container">
+            <h2>Contacts</h2>
+            <p>Want to know more or just chat? You are welcome!</p>
+            <button class="btn btn-primary send_message">Send message</button>
+            <div>
+                <i class="fab fa-linkedin"> 
+                    <a href="https://uk-ua.facebook.com/" target="_blank">
+                    <img src="/images/facebook.png" width="30" height="30" alt="facebook-icon">
+                </a>
+            </i>
+                <i class="fab fa-instagram">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="images/instagram.png" width="30" height="30" alt="instagram-icon">
+                    </a>
+                </i>
+                <i class="fab fa-dribbble">
+                    <a href="https://t.me/@A_6oyko" target="_blank">
+                        <img src="images/telegram.png" width="30" height="30" alt="telegram-icon">
+                    </a>
+                </i>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
